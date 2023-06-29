@@ -345,6 +345,121 @@ function App() {
         </div>
       </div>
 
+      <hr className="my-24 border-t-4" />
+
+      <div
+        className="container px-6 font-inter max-w-md mx-auto
+      sm:max-w-xl md:max-w-5xl lg:flex lg:max-w-full lg:p-0"
+      >
+        <div className="lg:p-12 lg:flex-1">
+          <h3 className="text-4xl font-bold text-slate-800 sm:text-5xl md:text-6xl">
+            Dwi <span className="text-sky-500">Prasetyo</span>
+          </h3>
+          <img
+            src={image2}
+            alt="Macbook"
+            className="mt-4 rounded-xl shadow-xl sm:mt-6 sm:h-64 sm:w-full 
+          sm:object-cover sm:object-center lg:hidden"
+          />
+          <h2 className="mt-6 text-2xl font-semibold text-slate-800 sm:mt-8 sm:text-4xl">
+            Mari Belajar Programming Bersama WPU
+          </h2>
+          <p className="mt-2 text-slate-600 sm:mt-4 sm:text-xl">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae rerum
+            debitis quidem qui sapiente similique, harum asperiores dicta
+            voluptates laudantium deserunt, commodi aspernatur animi reiciendis,
+            .
+          </p>
+          <div className="mt-4 sm:mt-6">
+            <a
+              href="#"
+              className="inline-block px-5 py-3 bg-red-600 text-white rounded-lg 
+            shadow-lg uppercase font-semibold tracking-wider text-sm sm:text-base"
+            >
+              Subscribe Channel Youtube
+            </a>
+          </div>
+        </div>
+        <div className="hidden lg:flex w-1/2">
+          <img
+            src={image2}
+            alt="Macbook"
+            className="object-cover rounded-l-3xl"
+          />
+        </div>
+      </div>
+
+      <h2 className="mt-24 mb-10 text-center font-bold text-3xl text-slate-700">
+        My Gallery
+      </h2>
+
+      <div
+        className="container mx-auto px-6 font-inter 
+      sm:flex sm:flex-wrap sm:gap-6 
+      sm:justify-evenly"
+      >
+        <div
+          className="rounded-md shadow-lg 
+        overflow-hidden mb-10 sm:mb-0 sm:w-64
+        md:w-80 lg:w-72"
+        >
+          <img
+            src="https://source.unsplash.com/600x400"
+            alt="Image Caption"
+            className="w-full"
+          />
+          <div className="px-6 py-4">
+            <div className="font-bold text-xl mb-2 text-slate-700">
+              Image Title
+            </div>
+            <p className="text-sm text-slate-600">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim,
+              iure!
+            </p>
+          </div>
+        </div>
+        <div
+          className="rounded-md shadow-lg 
+        overflow-hidden mb-10 sm:mb-0 sm:w-64
+        md:w-80 lg:w-72"
+        >
+          <img
+            src="https://source.unsplash.com/600x400"
+            alt="Image Caption"
+            className="w-full"
+          />
+          <div className="px-6 py-4">
+            <div className="font-bold text-xl mb-2 text-slate-700">
+              Image Title
+            </div>
+            <p className="text-sm text-slate-600">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim,
+              iure!
+            </p>
+          </div>
+        </div>
+        <div
+          className="rounded-md shadow-lg 
+        overflow-hidden mb-10 sm:mb-0 sm:w-64
+        md:w-80 lg:w-72"
+        >
+          <img
+            src="https://source.unsplash.com/600x400"
+            alt="Image Caption"
+            className="w-full"
+          />
+          <div className="px-6 py-4">
+            <div className="font-bold text-xl mb-2 text-slate-700">
+              Image Title
+            </div>
+            <p className="text-sm text-slate-600">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim,
+              iure!
+            </p>
+          </div>
+        </div>
+      </div>
+
       <div className="mb-96"></div>
       <div className="w-10 h-10 bg-sky-200 rounded-full flex fixed bottom-5 right-5 cursor-pointer">
         <a href="#" className="text-xl m-auto">
