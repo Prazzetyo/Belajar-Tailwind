@@ -1,6 +1,17 @@
 import { useState, useEffect } from "react";
 import image from "../src/assets/macbook.jpeg";
 import image2 from "../src/assets/macbook2.jpeg";
+import gridImage1 from "../src/assets/grid-1.jpeg";
+import gridImage2 from "../src/assets/grid-2.jpeg";
+import gridImage3 from "../src/assets/grid-3.jpeg";
+import gridImage4 from "../src/assets/grid-4.jpeg";
+import gridImage5 from "../src/assets/grid-5.jpeg";
+import gridImage6 from "../src/assets/grid-6.jpeg";
+import gridImage7 from "../src/assets/grid-7.jpeg";
+import gridImage8 from "../src/assets/grid-8.jpeg";
+import gridImage9 from "../src/assets/grid-9.jpeg";
+import gridImage10 from "../src/assets/grid-10.jpeg";
+
 function App() {
   const html = document.querySelector("html");
 
@@ -14,6 +25,7 @@ function App() {
       html.classList.remove("dark");
     }
   };
+
   return (
     <>
       <div className="flex">
@@ -457,6 +469,109 @@ function App() {
               iure!
             </p>
           </div>
+        </div>
+      </div>
+
+      <div
+        className="mt-64 p-2 font-inter grid grid-cols-2 gap-2 
+      md:grid-cols-4 md:p-4"
+      >
+        <h2
+          className="h-15 text-xl font-semibold 
+        text-slate-700 md:col-start-4 md:row-start-2
+        md:flex"
+        >
+          <span className="self-center">Welcome to This Website</span>
+        </h2>
+        <div
+          className="h-15 text-lg font-bold 
+        text-slate-600 md:col-start-2 md:row-start-2
+        md:flex"
+        >
+          <span className="self-end">@dwiprasetyo</span>
+        </div>
+        <div
+          className="h-15 bg-blue-500 aspect-[4/3] rounded-lg md:aspect-[3/4] 
+        xl:aspect-[4/3] overflow-hidden group relative hover:scale-95 transition-all duration-500"
+        >
+          <div
+            style={{ "--grid-1": `url(${gridImage1})` }}
+            className="w-full h-full bg-[url:var(--grid-1)] 
+            bg-cover bg-center absolute group-hover:scale-125 
+            group-hover:rotate-12 transition-all duration-500"
+          ></div>
+        </div>
+        <div className="h-15 bg-blue-500 aspect-[4/3] rounded-lg md:aspect-[3/4] xl:aspect-[4/3] md:col-start-3 overflow-hidden group relative hover:scale-95 transition-all duration-500">
+          <div
+            style={{ "--grid-2": `url(${gridImage2})` }}
+            className="w-full h-full bg-[url:var(--grid-2)] 
+            bg-cover bg-center absolute group-hover:scale-125 
+            group-hover:rotate-12 transition-all duration-500"
+          ></div>
+        </div>
+        <div className="h-15 bg-blue-500 aspect-[4/3] rounded-lg md:aspect-[3/4] xl:aspect-[4/3] overflow-hidden group relative hover:scale-95 transition-all duration-500">
+          <div
+            style={{ "--grid-3": `url(${gridImage3})` }}
+            className="w-full h-full bg-[url:var(--grid-3)] 
+            bg-cover bg-center absolute group-hover:scale-125 
+            group-hover:rotate-12 transition-all duration-500"
+          ></div>
+        </div>
+        <div className="h-15 bg-blue-500 aspect-[4/3] rounded-lg md:aspect-[3/4] xl:aspect-[4/3] overflow-hidden group relative hover:scale-95 transition-all duration-500">
+          <div
+            style={{ "--grid-4": `url(${gridImage4})` }}
+            className="w-full h-full bg-[url:var(--grid-4)] 
+            bg-cover bg-center absolute group-hover:scale-125 
+            group-hover:rotate-12 transition-all duration-500"
+          ></div>
+        </div>
+        <div className="h-15 bg-blue-500 aspect-[4/3] rounded-lg md:aspect-[3/4] xl:aspect-[4/3] overflow-hidden group relative hover:scale-95 transition-all duration-500">
+          <div
+            style={{ "--grid-5": `url(${gridImage5})` }}
+            className="w-full h-full bg-[url:var(--grid-5)] 
+            bg-cover bg-center absolute group-hover:scale-125 
+            group-hover:rotate-12 transition-all duration-500"
+          ></div>
+        </div>
+        <div className="h-15 bg-blue-500 aspect-[4/3] rounded-lg md:aspect-[3/4] xl:aspect-[4/3] md:col-start-2 overflow-hidden group relative hover:scale-95 transition-all duration-500">
+          <div
+            style={{ "--grid-6": `url(${gridImage6})` }}
+            className="w-full h-full bg-[url:var(--grid-6)] 
+            bg-cover bg-center absolute group-hover:scale-125 
+            group-hover:rotate-12 transition-all duration-500"
+          ></div>
+        </div>
+        <div className="h-15 bg-blue-500 aspect-[4/3] rounded-lg md:aspect-[3/4] xl:aspect-[4/3] md:col-start-4 overflow-hidden group relative hover:scale-95 transition-all duration-500">
+          <div
+            style={{ "--grid-7": `url(${gridImage7})` }}
+            className="w-full h-full bg-[url:var(--grid-7)] 
+            bg-cover bg-center absolute group-hover:scale-125 
+            group-hover:rotate-12 transition-all duration-500"
+          ></div>
+        </div>
+        <div className="h-15 bg-blue-500 aspect-[4/3] rounded-lg md:aspect-[3/4] xl:aspect-[4/3] overflow-hidden group relative hover:scale-95 transition-all duration-500">
+          <div
+            style={{ "--grid-8": `url(${gridImage8})` }}
+            className="w-full h-full bg-[url:var(--grid-8)] 
+            bg-cover bg-center absolute group-hover:scale-125 
+            group-hover:rotate-12 transition-all duration-500"
+          ></div>
+        </div>
+        <div className="h-15 bg-blue-500 aspect-[4/3] rounded-lg md:aspect-[3/4] xl:aspect-[4/3] md:col-start-3 overflow-hidden group relative hover:scale-95 transition-all duration-500">
+          <div
+            style={{ "--grid-9": `url(${gridImage9})` }}
+            className="w-full h-full bg-[url:var(--grid-9)] 
+            bg-cover bg-center absolute group-hover:scale-125 
+            group-hover:rotate-12 transition-all duration-500"
+          ></div>
+        </div>
+        <div className="h-15 bg-blue-500 aspect-[4/3] rounded-lg md:aspect-[3/4] xl:aspect-[4/3] md:col-start-3 overflow-hidden group relative hover:scale-95 transition-all duration-500">
+          <div
+            style={{ "--grid-10": `url(${gridImage10})` }}
+            className="w-full h-full bg-[url:var(--grid-10)] 
+            bg-cover bg-center absolute group-hover:scale-125 
+            group-hover:rotate-12 transition-all duration-500"
+          ></div>
         </div>
       </div>
 
